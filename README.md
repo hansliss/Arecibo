@@ -19,7 +19,9 @@ I've also reinstated the message rows that were removed
 in the original version in order to keep it below 256 bytes.
 
 Finally, I've converted the assembler code to work with
-the "a18" assembler, and written a simple Makefile.
+Herb Johnson's "a18" assembler
+(https://www.retrotechnology.com/memship/a18.html),
+and written a simple Makefile.
 
 "make install" won't do anything of the sort, but it will
 display the iNTEL hex code of the compiled program, which
